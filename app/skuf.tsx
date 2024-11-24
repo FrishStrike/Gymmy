@@ -4,11 +4,7 @@ import { Link } from 'expo-router'
 
 const skuf = () => {
   return (
-    <View style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}>
+    <View className="flex-1 items-center justify-center bg-blue-50">
       <Text>ТЫ СКУФ!</Text>
     </View>
   )
